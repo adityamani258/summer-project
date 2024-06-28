@@ -1,0 +1,44 @@
+.box{
+    margin: 5% 6% 10% 6%;
+    width: 90%;
+    height: 100%;
+    font-family: "Tajawal",sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+.products{
+    width: 100%;
+}
+.products-row{
+    display: flex;
+    flex-direction: row;
+    height: 60%;
+    width: 100%;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+    height: 100%;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.product-img img{
+    width: 250px;
+    height: 200px;
+    margin: 5px;
+}
+.discount{
+    color: red;
+}
+.decor{
+    text-decoration: line-through;
+}
+span{
+    padding: 0 5px;
+}
+.cart{
+    margin-top: 5px;
+}

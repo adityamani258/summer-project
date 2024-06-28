@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shop.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images\ad store.png" alt="logo image">
+            </div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="box">
+        <table class="products">
+            <tr class="products-row">
+                <td class="product">
+                    <div class="product-img"><img src="images\laptop (1).png" alt="product"></div>
+                    <div class="product-piece"><h3>Dell XPS 13</h3><p>  Intel Core i7, 16GB RAM, 512GB SSD, 13.3" 4K touchscreen, Intel Iris Xe graphics, Thunderbolt 4, Wi-Fi 6, fingerprint reader.</p><h5>Rating: ⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">90,000</span><span class="price">84,000</span><span class="discount">(27% off)</span> </h5><button class="cart" onclick="add_to_car()">Add to Cart</button></div>
+                </td>
+                <td class="product">
+                    <div class="product-img"><img src="images\pngwing.com (1).png" alt="product"></div>
+                    <div class="product-piece"><h3>Apple MacBook Pro</h3><p>M1 chip, 16GB RAM, 1TB SSD, 13.3" Retina display, integrated GPU, Touch Bar, Touch ID, Wi-Fi 6, macOS.</p><h5>Rating: ⭐⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">1,40,000</span>1,35,000<span class="discount">(25% off)</span> </h5><button class="cart">Add to Cart</button></div>
+                </td>
+                <td class="product">
+                    <div class="product-img"><img src="images\pngwing.com (3).png" alt="product"></div>
+                    <div class="product-piece"><h3>HP Spectre x360</h3><p>Intel Core i7, 16GB RAM, 1TB SSD, 13.3" FHD touchscreen, Intel Iris Xe graphics, Thunderbolt 4, Wi-Fi 6, fingerprint reader.</p><h5>Rating: ⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">85,000</span>79,000<span class="discount">(20% off)</span> </h5><button class="cart">Add to Cart</button></div>
+                </td>
+            </tr>
+            <tr class="products-row">
+                <td class="product">
+                    <div class="product-img"><img src="images\pngwing.com.png" alt="product"></div>
+                    <div class="product-piece"><h3>Lenovo ThinkPad X1 Carbon</h3><p>Intel Core i7, 16GB RAM, 1TB SSD, 14" FHD display, Intel UHD graphics, Thunderbolt 3, Wi-Fi 6, fingerprint reader.</p><h5>Rating: ⭐⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">72,000</span><span class="price">52,000</span><span class="discount">(10% off)</span> </h5><button class="cart" onclick="add_to_car()">Add to Cart</button></div>
+                </td>
+                <td class="product">
+                    <div class="product-img"><img src="images\iphone.png" alt="product"></div>
+                    <div class="product-piece"><h3>Apple iPhone 13 Pro</h3><p> A15 Bionic chip, 6GB RAM, 1TB storage, 6.1" Super Retina XDR display,triple 12MP camera system, LiDAR scanner, Face ID, 5G, iOS 15.</p><h5>Rating: ⭐⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">1,12,000</span>1,08,000<span class="discount">(13% off)</span> </h5><button class="cart">Add to Cart</button></div>
+                </td>
+                <td class="product">
+                    <div class="product-img"><img src="images\pngwing.com (5).png" alt="product"></div>
+                    <div class="product-piece"><h3>Samsung Galaxy S21 Ultra</h3><p>Exynos 2100, 12GB RAM, 512GB storage, 6.8" AMOLED, 120Hz, dual-camera (108MP), 40MP front, 5G, 5000mAh, Android 11.</p><h5>Rating: ⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">65,000</span>63,000<span class="discount">(16% off)</span> </h5><button class="cart">Add to Cart</button></div>
+                </td>
+            </tr>
+            <tr class="products-row">
+                <td class="product">
+                    <div class="product-img"><img src="images\pngwing.com (6).png" alt="product"></div>
+                    <div class="product-piece"><h3>Vivo X70 Pro+</h3><p>Snapdragon 888+, 12GB RAM, 512GB storage, 6.78" AMOLED, 120Hz, quad-camera (50MP), 32MP front, 5G, 4500mAh, Android 11.</p><h5>Rating: ⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">72,000</span><span class="price">68,000</span><span class="discount">(15% off)</span> </h5><button class="cart" onclick="add_to_car()">Add to Cart</button></div>
+                </td>
+                <td class="product">
+                    <div class="product-img"><img src="images\tablet.png" alt="product"></div>
+                    <div class="product-piece"><h3>Sony Xperia Z4 Tablet</h3><p> Snapdragon 810, 3GB RAM, 32GB storage, 10.1" 2K display, 8.1MP rear, 5.1MP front, 6000mAh battery, Android 6.0.</p><h5>Rating: ⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">79,000</span>74,000<span class="discount">(21% off)</span> </h5><button class="cart">Add to Cart</button></div>
+                </td>
+                <td class="product">
+                    <div class="product-img"><img src="images\pngwing.com (4).png" alt="product"></div>
+                    <div class="product-piece"><h3>Apple iPad Pro (2021)</h3><p>M1 chip, 8GB RAM, 1TB storage, 12.9" Liquid Retina XDR display, dual-camera (12MP main), 12MP front, 5G, 10758mAh battery, iPadOS 14.</p><h5>Rating: ⭐⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">1,20,000</span>1,18,000<span class="discount">(18% off)</span> </h5><button class="cart">Add to Cart</button></div>
+                </td>
+            </tr>
+            <tr class="products-row">
+                <td class="product">
+                    <div class="product-img"><img src="images\washing machine.png" alt="product"></div>
+                    <div class="product-piece"><h3>LG TurboWash 360</h3><p>5.0 cu. ft. capacity, TurboWash technology, AI DD, 14 wash cycles, steam technology, Wi-Fi connectivity, SmartThinQ app, inverter direct drive motor.</p><h5>Rating: ⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">60,000</span><span class="price">57,000</span><span class="discount">(12% off)</span> </h5><button class="cart" onclick="add_to_car()">Add to Cart</button></div>
+                </td>
+                <td class="product">
+                    <div class="product-img"><img src="images\pngwing.com (13).png" alt="product"></div>
+                    <div class="product-piece"><h3>Samsung FlexWash</h3><p>6.0 cu. ft. total capacity, dual wash system, Super Speed, steam wash, Wi-Fi connectivity, SmartThings app, VRT Plus technology, stainless steel drum.</p><h5>Rating: ⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">58,000</span>55,000<span class="discount">(10% off)</span> </h5><button class="cart">Add to Cart</button></div>
+                </td>
+                <td class="product">
+                    <div class="product-img"><img src="images\pngwing.com (14).png" alt="product"></div>
+                    <div class="product-piece"><h3>Bosch 800 Series</h3><p>4.0 cu. ft. capacity, EcoSilence motor, SpeedPerfect, 14 wash cycles, AquaShield leak protection, Home Connect app, EcoSilence drive, energy-efficient.</p><h5>Rating: ⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">62,000</span>59,000<span class="discount">(13% off)</span> </h5><button class="cart">Add to Cart</button></div>
+                </td>
+            </tr>
+            <tr class="products-row">
+                <td class="product">
+                    <div class="product-img"><img src="images\pngwing.com (11).png" alt="product"></div>
+                    <div class="product-piece"><h3>Bose SoundLink Revolve+</h3><p>360-degree sound, Bluetooth connectivity, 16-hour battery life,voice assistant integration, AUX input, handle for portability.</p><h5>Rating: ⭐⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">75,000</span><span class="price">70,000</span><span class="discount">(23% off)</span> </h5><button class="cart" onclick="add_to_car()">Add to Cart</button></div>
+                </td>
+                <td class="product">
+                    <div class="product-img"><img src="images\pngwing.com (12).png" alt="product"></div>
+                    <div class="product-piece"><h3>Sony SRS-XB43</h3><p>Bluetooth connectivity, 24-hour battery life, water-resistant (IP67), built-in microphone,USB-C charging, LED lighting effects.</p><h5>Rating: ⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">78,000</span>73,000<span class="discount">(20% off)</span> </h5><button class="cart">Add to Cart</button></div>
+                </td>
+                <td class="product">
+                    <div class="product-img"><img src="images\pngwing.com (7).png" alt="product"></div>
+                    <div class="product-piece"><h3>Apple Watch Series 7</h3><p>S7 chip, 32GB storage, Retina display,blood oxygen sensor, heart rate monitor, GPS, water-resistant (WR50), 18-hour battery life, watchOS.</p><h5>Rating: ⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">55,000</span>52,000<span class="discount">(22% off)</span> </h5><button class="cart">Add to Cart</button></div>
+                </td>
+            </tr>
+            <tr class="products-row">
+                <td class="product">
+                    <div class="product-img"><img src="images\pngwing.com (8).png" alt="product"></div>
+                    <div class="product-piece"><h3>Sony WF-1000XM4</h3><p>V1 processor, active noise cancellation, 24-hour battery, IPX4 water resistance, touch controls, Alexa, wireless charging, Hi-Res audio.</p><h5>Rating: ⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">20,000</span><span class="price">18,000</span><span class="discount">(19% off)</span> </h5><button class="cart" onclick="add_to_car()">Add to Cart</button></div>
+                </td>
+                <td class="product">
+                    <div class="product-img"><img src="images\pngwing.com (9).png" alt="product"></div>
+                    <div class="product-piece"><h3>Apple AirPods Pro</h3><p>H1 chip, active noise cancellation, transparency mode, spatial audio, 24-hour battery, sweat-resistant, Siri, wireless charging.</p><h5>Rating: ⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">40,000</span>39,000<span class="discount">(24% off)</span> </h5><button class="cart">Add to Cart</button></div>
+                </td>
+                <td class="product">
+                    <div class="product-img"><img src="images\pngwing.com (10).png" alt="product"></div>
+                    <div class="product-piece"><h3>Sennheiser HD 650</h3><p>Open-back design, dynamic drivers, lightweight aluminum voice coils, impedance of 300 ohms, frequency response of 10 Hz to 41 kHz.</p><h5>Rating: ⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">10,000</span>7,000<span class="discount">(18% off)</span> </h5><button class="cart">Add to Cart</button></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="bottom" style="margin-top: 10%;">
+        <section class="col">
+            <p><u>CONNECT</u></p>
+            <ul class="bottom-content">
+                <li><a href="#" class="fa fa-facebook social"></a></li>
+                <li><a href="#" class="fa fa-youtube social"></a></li>
+                <li><a href="#" class="fa fa-instagram social"></a></li>
+            </ul>
+        </section>
+        <section class="col">
+            <p><u>COMPANY</u></p>
+            <ul class="bottom-content">
+                <li><a href="http://">About Us</a></li>
+                <li><a href="http://">Careers</a></li>
+                <li><a href="http://">Privacy Policy</a></li>
+                <li><a href="http://">Terms of Service</a></li>
+                <li><a href="http://">Contact Us</a></li>
+                <li><a href="http://">Press & Media</a></li>
+            </ul>
+        </section>
+        <section class="col">
+            <p><u>SUPPORT</u></p>
+            <ul class="bottom-content">
+                <li><a href="http://">Help Center</a></li>
+                <li><a href="http://">Developer Center</a></li>
+                <li><a href="http://">Report Abuse</a></li>
+                <li><a href="http://">Contact Tech Support</a></li>
+                <li><a href="http://">Customer Care</a></li>
+            </ul>
+        </section>
+    </div>
+    <footer class="footer">
+        <p>&copy; By Aditya . 2024 SRMU</p>
+    </footer>
+</body>
+</html>
