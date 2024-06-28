@@ -1,76 +1,44 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
-body{
+.box{
+    margin: 5% 6% 10% 6%;
+    width: 90%;
     height: 100%;
-    width: 100%;
-}
-.navbar {
+    font-family: "Tajawal",sans-serif;
     display: flex;
     flex-direction: row;
-    background-color: #be0f0f;
-    color: #fff;
 }
-.logo{
-    width: 10%;
-    height: 40px;
-    margin: 15px 0 20px 10px;
+.products{
+    width: 100%;
 }
-.logo img{
-    height: 50px;
-    width: 120px;
-    padding: 0 10px 10px 20px;
-}
-
-.nav-links {
-    list-style: none;
+.products-row{
     display: flex;
-    flex-direction: row; 
-    width: 50%;
-    margin: 25px 20px 20px 15%;
+    flex-direction: row;
+    height: 60%;
+    width: 100%;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+    height: 100%;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.nav-links li {
-    margin: 0 15px;
+.product-img img{
+    width: 250px;
+    height: 200px;
+    margin: 5px;
 }
-
-.nav-links a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 16px;
-    transition: color 0.3s;
+.discount{
+    color: red;
 }
-
-.nav-links a:hover {
-    color: #ff6347;
+.decor{
+    text-decoration: line-through;
 }
-#search-bar{
-    margin: 17px 20px 0 10px;
-    border: none;
-    border-radius: 5px;
-    outline: none;
-    width: 40%;
-    height: 27px;
-    padding: 3px;
+span{
+    padding: 0 5px;
 }
-
-#search{
-    padding: 5px 10px;
-    border: none;
-    border-radius: 3px;
-    background-color: #ff6347;
-    cursor: pointer;
-    margin: 20px 20px 0 5px;
-    height: 27px;
-}
-#search a{
-    color: #fff;
-    text-decoration: none;
-
-}
-
-.search-bar button:hover {
-    background-color: #ff4500;
+.cart{
+    margin-top: 5px;
 }
