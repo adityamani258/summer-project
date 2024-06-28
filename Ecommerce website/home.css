@@ -1,3 +1,4 @@
+
 .intro{
     text-align: center;
     margin: 30px;
@@ -22,7 +23,7 @@
 
 .box{
     text-align: center;
-    margin: 5% 35% 15% 35%;
+    margin: 5% 35% 5% 35%;
     width: 80%;
     height: 20%;
     display: flex;
@@ -52,9 +53,56 @@
 }
 .bigger{
     font-size: 17px;
-    font-weight: 700;
+    font-weight: 800;
+    color: #ff6347;
 }
 .smaller{
-    font-size: 10px;
-    font-weight: 400;
+    font-size: 12px;
+    font-weight: 500;
+}
+.product-img img{
+    height:150px;
+    width: 150px;
+}
+.box2{
+    text-align: center;
+    margin: 5% 10% 5% 15%;
+    width: 80%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.products{
+    margin: 0 10px 10px 10px;
+    height: 40%;
+    
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 60%;
+    margin: 10px;
+    padding: 50px;
+    animation: scrollAnimation 20s linear infinite;
+}
+.products-row{
+    display: flex;
+    margin-top: 0;
+    width: 80%;
+    overflow-x: hidden;
+}
+@keyframes scrollAnimation{
+    0%{
+        transform: translateX(100vw);
+    }
+    100%{
+        transform: translateX(-100vw);
+
+    }
+}
+.product a{
+    color: black;
 }
